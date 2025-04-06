@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import NewContend from '../component/NewContend'
 import NewSite from '../component/NewSite'
 
@@ -10,6 +11,9 @@ export default function Home() {
         <NewSite project ="Spring boot" using="Java"/>
         <NewSite project ="Boostrap" using="CSS"/>
         {/* <NewContend/> */}
+        <Link to={"/profile"}>Go to Profile Page !</Link>
+        <hr/>
+        <Link to={"/contact"}>Go to Conatact Page !</Link>
       
     </div>
   )
