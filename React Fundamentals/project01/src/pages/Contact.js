@@ -14,8 +14,8 @@ export default function Contact() {
     <div>
       <h1>This is Contact Page</h1>
       <h1>The count is {count}</h1>
-      <button onClick={decrement} className="btn">- </button>
-      <button onClick={increment} className="btn">+</button>
+      <button onClick={decrement} className="btn1">- </button>
+      <button onClick={increment} className="btn1">+</button>
     </div>
   );
 }
