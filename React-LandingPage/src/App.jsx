@@ -2,9 +2,8 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div className='underline font-bold text-3xl'>
-      <h1>Hello world !</h1>
-      
+    <div className='bg-red-400 '>
+      App
     </div>
   )
 }
