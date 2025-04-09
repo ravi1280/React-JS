@@ -15,10 +15,10 @@ const Fotter = () => {
         <div>
           <h1 className='font-medium  text-xl pb-4 pt-5 md:pt-0'>Links</h1>
           <nav className='flex flex-col gap-2'>
-          <a className='text-orange-400 transition-all cursor-point' href="/">Home</a>
-          <a className='text-orange-400 transition-all cursor-point' href="/">About Us</a>
-          <a className='text-orange-400 transition-all cursor-point' href="/">Product</a> 
-          <a className='text-orange-400 transition-all cursor-point' href="/">Conatct Us</a>
+          <a className='text-green-400 transition-all cursor-point' href="/">Home</a>
+          <a className='text-green-400 transition-all cursor-point' href="/">About Us</a>
+          <a className='text-green-400 transition-all cursor-point' href="/">Product</a> 
+          <a className='text-green-400 transition-all cursor-point' href="/">Conatct Us</a>
           </nav>
           
         </div>
@@ -27,22 +27,22 @@ const Fotter = () => {
                 My Special
             </h1>
             <nav className='flex flex-col gap-2'>
-            <a className='text-orange-400 transition-all cursor-point' href="/">Premium Quality</a>
-            <a className='text-orange-400 transition-all cursor-point' href="/">Exotic Falvors</a>
+            <a className='text-green-400 transition-all cursor-point' href="/">Premium Quality</a>
+            <a className='text-green-400 transition-all cursor-point' href="/">Exotic Falvors</a>
             </nav>
         </div>
         <div>
             <h1 className='font-medium  text-xl pb-4 pt-5 md:pt-0'>Contact Us</h1>
             <nav className='flex flex-col gap-2'>
-            <a className='text-orange-400 transition-all cursor-point' href="/">User@gmaul.com</a>
-            <a className='text-orange-400 transition-all cursor-point' href="/">+94587454546</a>
-            <a className='text-orange-400 transition-all cursor-point' href="/">Socail Media</a>
+            <a className='text-green-400 transition-all cursor-point' href="/">User@gmaul.com</a>
+            <a className='text-green-400 transition-all cursor-point' href="/">+94587454546</a>
+            <a className='text-green-400 transition-all cursor-point' href="/">Socail Media</a>
             </nav>
 
         </div>
       </div>
       <div >
-        <p className='text-center  py-4'>@copyright develop By <span className='text-orange-600'>Ravishka Indraji</span> | All Right Reserved</p>
+        <p className='text-center  py-4'>@copyright develop By <span className='text-green-600'>Ravishka Indraji</span> | All Right Reserved</p>
       </div>
     </footer>
   );
