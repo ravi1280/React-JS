@@ -1,6 +1,6 @@
 import React from 'react'
 import video from "../assets/video/Hero.mp4"
-import img from "../assets/img/Hero2.png"
+import img from "../assets/img/Character.png"
 
 const Home = () => {
   return (
@@ -16,8 +16,8 @@ const Home = () => {
           <p className=' w-full  md:w-3/4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque obcaecati ipsum, cumque, rerum officia et minima quod reprehenderit hic commodi est necessitatibus. Veritatis delectus quidem asperiores, pariatur reprehenderit deleniti.</p>
           <button className='w-3/4 md:w-1/4 py-1 bg-orange-500 px-2  rounded-lg hover:text-black hover:bg-white transition duration-300 ease-in-out cursor-pointer"'>Expore More !</button>
         </div>
-        <div className='hidden  lg:flex w-3/4 rounded-fill '>
-          <img  src={img} alt="img" />
+        <div className='hidden  lg:flex w-3/4 rounded-fill   justify-center'>
+          <img className='h-150 text-center'  src={img} alt="img" />
         </div>
       </div>
     </div>
