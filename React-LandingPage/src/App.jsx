@@ -4,6 +4,7 @@ import Banner from './component/Banner'
 import Home from './component/Home'
 import Navbar from './component/Navbar'
 import Product from './component/Product'
+import Review from './component/Review'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <About/>
     <Product/>
     <Banner/>
+    <Review/>
       
     </>
   )
