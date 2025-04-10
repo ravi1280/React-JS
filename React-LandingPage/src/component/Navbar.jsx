@@ -17,28 +17,28 @@ const Navbar = () => {
         <nav className="hidden lg:flex items-center  gap-8 px-20">
           <a
             href="/Home"
-            className="hover:text-orange-400 transition duration-300 ease-linear"
+            className="hover:text-emerald-500 transition duration-300 ease-linear"
           >
             {" "}
             Home
           </a>
           <a
             href="/Home"
-            className="hover:text-orange-400 transition duration-300 ease-linear"
+            className="hover:text-emerald-500 transition duration-300 ease-linear"
           >
             {" "}
             About Us
           </a>
           <a
             href="/Home"
-            className="hover:text-orange-400 transition duration-300 ease-linear"
+            className="hover:text-emerald-500 transition duration-300 ease-linear"
           >
             {" "}
             Project
           </a>
           <a
             href="/Home"
-            className="hover:text-orange-400 transition duration-300 ease-linear"
+            className="hover:text-emerald-500 transition duration-300 ease-linear"
           >
             {" "}
             Contact Us
@@ -47,7 +47,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center gap-4">
           <FaShoppingCart className="" size={26} />
-          <button className=" bg-orange-500 px-2 py-1 rounded-lg hover:text-black hover:bg-white transition duration-300 ease-in-out cursor-pointer">
+          <button className=" bg-emerald-500 px-2 py-1 rounded-lg hover:text-black hover:bg-white transition duration-300 ease-in-out cursor-pointer">
             Sign In
           </button>
         </div>

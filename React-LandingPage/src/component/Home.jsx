@@ -14,7 +14,7 @@ const Home = () => {
           <h1 className='text-5xl font-bold'>Uthenticate</h1>
           <p className=' w-full  md:w-3/4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus magni eaque alias nihil nemo eligendi, dolor aspernatur voluptatum tenetur numquam.</p>
           <p className=' w-full  md:w-3/4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque obcaecati ipsum, cumque, rerum officia et minima quod reprehenderit hic commodi est necessitatibus. Veritatis delectus quidem asperiores, pariatur reprehenderit deleniti.</p>
-          <button className='w-3/4 md:w-1/4 py-1 bg-green-400 px-2  rounded-lg hover:text-black hover:bg-white transition duration-300 ease-in-out cursor-pointer"'>Expore More !</button>
+          <button className='w-3/4 md:w-1/4 py-1 bg-emerald-500 px-2 py-2  rounded-lg hover:text-black hover:bg-white transition duration-300 ease-in-out cursor-pointer  '>Expore More !</button>
         </div>
         <div className='hidden  lg:flex w-3/4 rounded-fill   justify-center'>
           <img className='h-140 text-center'  src={img} alt="img" />

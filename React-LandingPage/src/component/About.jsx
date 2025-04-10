@@ -7,23 +7,23 @@ import { FaBox } from "react-icons/fa"
 const About = () => {
   return (
     <div className='px-5 md:px-14  py-10'>
-      <h1 className='text-center text-4xl font-bold py-5 text-green-500'>Why Choose Me !</h1>
+      <h1 className='text-center text-4xl font-bold py-5 text-emerald-500'>Why Choose Me !</h1>
       <div className=' grid  grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mt-8 gap-8'>
         <AboutCard
           icon={
-            <MdOutlineWorkspacePremium size={45} className=" text-green-500" />
+            <MdOutlineWorkspacePremium size={45} className=" text-white" />
           }
           title="Premium Quality"
         />
         <AboutCard
           icon={
-            <FaLeaf size={45} className=" text-green-500" />
+            <FaLeaf size={45} className=" text-white " />
           }
           title="Premium Quality"
         />
         <AboutCard
           icon={
-            <FaBox size={45} className=" text-green-500" />
+            <FaBox size={45} className=" text-white" />
           }
           title="Premium Quality"
         />
