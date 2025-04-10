@@ -7,9 +7,9 @@ import ReviewCard from '../layout/ReviewCard'
 
 const Review = () => {
   return (
-    <div className="px-5 md:px-14">
-      <h1 className="text-center  text-4xl font-bold py-5 text-emerald-400">
-        That People Say !
+    <div className="px-5 md:px-14 ">
+      <h1 className="text-center  text-4xl font-bold py-5 text-emerald-400 mt-10">
+        That People Say 
       </h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 py-5">
         <ReviewCard
