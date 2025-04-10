@@ -51,16 +51,12 @@ const Home = () => {
             Explore More !
           </button>
         </div>
-        <motion.div 
-         animate={{ y: move ? 0 : 50, scale: 1 }}
-         initial={{ scale: 0.5 }}
-         transition={{ type: "tween", duration: 1 }}
-         viewport={{ once: false, amount: 0.2 }}
-         onLoad={() => {
-           setMove(!move);
-         }}
- 
-        className="hidden  lg:flex w-3/4 rounded-fill   justify-center">
+        <motion.div
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="hidden  lg:flex w-3/4 rounded-fill   justify-center"
+        >
           <img className="h-140 text-center" src={img} alt="img" />
         </motion.div>
       </div>
