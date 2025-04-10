@@ -1,6 +1,7 @@
 import React from 'react'
 import video from "../assets/video/Hero.mp4"
 import img from "../assets/img/Character.png"
+import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
   return (
@@ -16,7 +17,24 @@ const Home = () => {
       </video>
       <div className=" min-h-screen relative z-10 flex flex-row items-center  justify-between px-5 md:px-14 bg-black/50 text-white">
         <div className="flex flex-col gap-5">
-          <h1 className="text-5xl font-bold">Welcome to AvatarX</h1>
+          <h1 className="text-5xl font-bold">
+            <TypeAnimation
+              sequence={[
+                "Discover Rare Digital Art",
+                2000,
+                "Empower Your NFT Journey",
+                2000,
+                "Own What You Love",
+                2000,
+                "Explore the Metaverse",
+                2000,
+              ]}
+              wrapper="span"
+              speed={40}
+              style={{ display: "inline-block" }}
+              repeat={Infinity}
+            />
+          </h1>
           <p className=" w-full  md:w-3/4">
             AvatarX is the ultimate NFT avatar marketplace — where creativity
             meets true digital ownership. Discover limited-edition,
@@ -27,7 +45,7 @@ const Home = () => {
             mint, and showcase your NFT-style avatars across platforms, games,
             and the metaverse.
           </p>
-          <button className="w-3/4 md:w-1/4 py-1 bg-emerald-500 px-2 py-2  rounded-lg hover:text-black hover:bg-white transition duration-300 ease-in-out cursor-pointer " >
+          <button className="w-3/4 md:w-1/4 py-1 bg-emerald-500 px-2 py-2  rounded-lg hover:text-black hover:bg-white transition duration-300 ease-in-out cursor-pointer ">
             Explore More !
           </button>
         </div>
