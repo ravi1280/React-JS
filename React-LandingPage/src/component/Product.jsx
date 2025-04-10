@@ -1,10 +1,11 @@
 import React from 'react'
-import img1 from "../assets/img/prod1.png"
+import img6 from "../assets/img/prod1.png"
 import img2 from "../assets/img/prod2.png"
-import img3 from "../assets/img/Character.png"
-import img4 from "../assets/img/prod4.jpg"
-import img5 from "../assets/img/prod5.jpg"
-import img6 from "../assets/img/prod6.jpg"
+import img4 from "../assets/img/prod3.png"
+import img1 from "../assets/img/prod4.png"
+import img5 from "../assets/img/prod5.png"
+import img3 from "../assets/img/prod6.png"
+// import img6 from "../assets/img/Character.png"
 import ProductCard from '../layout/ProductCard'
 
 const Product = () => {
@@ -36,21 +37,21 @@ const Product = () => {
           }
         />
         <ProductCard
-          img={img3}
+          img={img4}
           title={"Music for the Digital Age"}
           contend={
             "Unlock limited-edition music albums and tracks as NFTs, giving you ownership of exclusive sound experiences."
-          }
+          } 
         />
         <ProductCard
-          img={img3}
+          img={img5}
           title={"Rare Collectibles"}
           contend={
             "Get your hands on limited-edition NFTs, collectible items that will forever remain one of a kind in the digital world."
           }
         />
         <ProductCard
-          img={img3}
+          img={img6}
           title={"Collaboration Projects"}
           contend={
             " Experience collaboration at its best—where multiple creators join forces to create a unique NFT project. Own a part of their collective creativity."

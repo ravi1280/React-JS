@@ -1,6 +1,7 @@
 import React from 'react'
 import video from "../assets/video/Hero.mp4"
 import img from "../assets/img/Character.png"
+// import img from "../assets/img/prod5.png"
 import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
