@@ -10,7 +10,7 @@ import ProductCard from '../layout/ProductCard'
 const Product = () => {
   return (
     <div className='min-h-screen  px-5 md:px-14 py-8'>
-      <h1 className='text-4xl text-green-500  text-center font-bold py-5'>Our Products !</h1>
+      <h1 className='text-4xl text-emerald-500  text-center font-bold py-5'>Our Products !</h1>
       <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-14 mt-2'>
       <ProductCard img={img1} title={"POS System"}/>
       <ProductCard img={img2} title={"POS System"}/>

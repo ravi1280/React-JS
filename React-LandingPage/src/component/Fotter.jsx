@@ -2,8 +2,8 @@ import React from 'react'
 
 const Fotter = () => {
   return (
-    <footer className=' bg-black text-white rounded-t-3xl mt-8 md:mt-0 '>
-      <div className=' flex flex-col md:flex-row justify-between px-5 md:px-32 p-8 '>
+    <footer className=' bg-black text-white rounded-t-3xl mt-8 md:mt-0  inset-shadow-sm inset-shadow-emerald-500'>
+      <div className=' flex flex-col md:flex-row justify-between px-5 md:px-32 p-8 mt-20 '>
         <div className='w-full md:w-1/4'>
           <h1 className=' font-semibold  text-xl  pb-4'>Footer</h1>
           <p className='text-sm'>
@@ -15,10 +15,10 @@ const Fotter = () => {
         <div>
           <h1 className='font-medium  text-xl pb-4 pt-5 md:pt-0'>Links</h1>
           <nav className='flex flex-col gap-2'>
-          <a className='text-green-400 transition-all cursor-point' href="/">Home</a>
-          <a className='text-green-400 transition-all cursor-point' href="/">About Us</a>
-          <a className='text-green-400 transition-all cursor-point' href="/">Product</a> 
-          <a className='text-green-400 transition-all cursor-point' href="/">Conatct Us</a>
+          <a className='text-emerald-400 transition-all cursor-point' href="/">Home</a>
+          <a className='text-emerald-400 transition-all cursor-point' href="/">About Us</a>
+          <a className='text-emerald-400 transition-all cursor-point' href="/">Product</a> 
+          <a className='text-emerald-400 transition-all cursor-point' href="/">Conatct Us</a>
           </nav>
           
         </div>
@@ -27,22 +27,22 @@ const Fotter = () => {
                 My Special
             </h1>
             <nav className='flex flex-col gap-2'>
-            <a className='text-green-400 transition-all cursor-point' href="/">Premium Quality</a>
-            <a className='text-green-400 transition-all cursor-point' href="/">Exotic Falvors</a>
+            <a className='text-emerald-400 transition-all cursor-point' href="/">Premium Quality</a>
+            <a className='text-emerald-400 transition-all cursor-point' href="/">Exotic Falvors</a>
             </nav>
         </div>
         <div>
             <h1 className='font-medium  text-xl pb-4 pt-5 md:pt-0'>Contact Us</h1>
             <nav className='flex flex-col gap-2'>
-            <a className='text-green-400 transition-all cursor-point' href="/">User@gmaul.com</a>
-            <a className='text-green-400 transition-all cursor-point' href="/">+94587454546</a>
-            <a className='text-green-400 transition-all cursor-point' href="/">Socail Media</a>
+            <a className='text-emerald-400 transition-all cursor-point' href="/">User@gmaul.com</a>
+            <a className='text-emerald-400 transition-all cursor-point' href="/">+94587454546</a>
+            <a className='text-emerald-400 transition-all cursor-point' href="/">Socail Media</a>
             </nav>
 
         </div>
       </div>
       <div >
-        <p className='text-center  py-4'>@copyright develop By <span className='text-green-600'>Ravishka Indraji</span> | All Right Reserved</p>
+        <p className='text-center  py-4'>@copyright develop By <span className='text-emerald-600'>Ravishka Indraji</span> | All Right Reserved</p>
       </div>
     </footer>
   );

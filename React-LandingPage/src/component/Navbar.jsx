@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       <div className="flex  justify-between px-5 py-5 lg:px-14 md:px-10 bg-black text-white">
         <div>
-          <span className="text-xl font-bold">Ravishka Inraji</span>
+          <span className="text-2xl font-bold">AvatarX.io</span>
         </div>
 
         <nav className="hidden lg:flex items-center  gap-8 px-20">
@@ -34,7 +34,7 @@ const Navbar = () => {
             className="hover:text-emerald-500 transition duration-300 ease-linear"
           >
             {" "}
-            Project
+            Gallery
           </a>
           <a
             href="/Home"
@@ -47,7 +47,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center gap-4">
           <FaShoppingCart className="" size={26} />
-          <button className=" bg-emerald-500 px-2 py-1 rounded-lg hover:text-black hover:bg-white transition duration-300 ease-in-out cursor-pointer">
+          <button className=" bg-emerald-500 px-2 py-1 px-4 rounded-lg hover:text-black hover:bg-white transition duration-300 ease-in-out cursor-pointer">
             Sign In
           </button>
         </div>
