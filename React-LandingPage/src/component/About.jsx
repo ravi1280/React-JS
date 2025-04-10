@@ -1,31 +1,34 @@
 import React from 'react'
 import AboutCard from '../layout/AboutCard'
-import { MdOutlineWorkspacePremium } from "react-icons/md"
-import { FaLeaf } from "react-icons/fa"
-import { FaBox } from "react-icons/fa"
+import { FaCogs} from "react-icons/fa";
+import {  FaExchangeAlt } from "react-icons/fa";
+import { FaDna } from "react-icons/fa";
 
 const About = () => {
   return (
     <div className='px-5 md:px-14  py-10'>
-      <h1 className='text-center text-4xl font-bold py-5 text-emerald-500'>Why Choose Me !</h1>
+      <h1 className='text-center text-4xl font-bold py-5 text-emerald-500'>Why Choose AvatarX </h1>
       <div className=' grid  grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mt-8 gap-8'>
         <AboutCard
           icon={
-            <MdOutlineWorkspacePremium size={45} className=" text-white" />
+            <FaDna size={45} className=" text-white" />
           }
-          title="Premium Quality"
+          title="Own What You Create"
+          contend="Every avatar is minted as a unique NFT on the blockchain — fully yours, forever. No duplicates. No limits. Just true digital identity you can trade or showcase."
         />
         <AboutCard
           icon={
-            <FaLeaf size={45} className=" text-white " />
+            <FaCogs size={45} className=" text-white " />
           }
-          title="Premium Quality"
+          title="Customize Every Detail"
+          contend="Choose from vibrant styles, themes, and traits to build your perfect digital persona. Your avatar, your rules — crafted for self-expression in any universe."
         />
         <AboutCard
           icon={
-            <FaBox size={45} className=" text-white" />
+            <FaExchangeAlt size={45} className=" text-white" />
           }
-          title="Premium Quality"
+          title="Buy, Sell & Connect"
+          contend="Join a growing community of collectors and creators. Explore rare drops, list your avatars, and connect through the AvatarX marketplace powered by Web3."
         />
       </div>
     </div>
