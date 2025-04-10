@@ -1,11 +1,10 @@
 import React from 'react'
-import img6 from "../assets/img/prod1.png"
-import img2 from "../assets/img/prod2.png"
-import img4 from "../assets/img/prod3.png"
-import img1 from "../assets/img/prod4.png"
-import img5 from "../assets/img/prod5.png"
-import img3 from "../assets/img/prod6.png"
-// import img6 from "../assets/img/Character.png"
+import img1 from "../assets/img/product1.png"
+import img2 from "../assets/img/product2.png"
+import img3 from "../assets/img/product3.png"
+import img4 from "../assets/img/product4.png"
+import img5 from "../assets/img/product5.png"
+import img6 from "../assets/img/product6.png"
 import ProductCard from '../layout/ProductCard'
 
 const Product = () => {
