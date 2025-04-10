@@ -27,7 +27,7 @@ const Home = () => {
             mint, and showcase your NFT-style avatars across platforms, games,
             and the metaverse.
           </p>
-          <button className="w-3/4 md:w-1/4 py-1 bg-emerald-500 px-2 py-2  rounded-lg hover:text-black hover:bg-white transition duration-300 ease-in-out cursor-pointer  ">
+          <button className="w-3/4 md:w-1/4 py-1 bg-emerald-500 px-2 py-2  rounded-lg hover:text-black hover:bg-white transition duration-300 ease-in-out cursor-pointer " >
             Explore More !
           </button>
         </div>

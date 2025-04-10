@@ -9,7 +9,7 @@ import ProductCard from '../layout/ProductCard'
 
 const Product = () => {
   return (
-    <div className="min-h-screen  px-5 md:px-14 py-8">
+    <div className="min-h-screen  px-5 md:px-14 py-8" id='product'>
       <h1 className="text-4xl text-emerald-500  text-center font-bold py-5">
         Gallery
       </h1>

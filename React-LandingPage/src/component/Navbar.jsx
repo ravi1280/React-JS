@@ -23,21 +23,21 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="/Home"
+            href="#aboutUs"
             className="hover:text-emerald-500 transition duration-300 ease-linear"
           >
             {" "}
             About Us
           </a>
           <a
-            href="/Home"
+            href="#product"
             className="hover:text-emerald-500 transition duration-300 ease-linear"
           >
             {" "}
             Gallery
           </a>
           <a
-            href="/Home"
+            href="#footer"
             className="hover:text-emerald-500 transition duration-300 ease-linear"
           >
             {" "}

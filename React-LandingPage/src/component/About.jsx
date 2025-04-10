@@ -6,7 +6,7 @@ import { FaDna } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className='px-5 md:px-14  py-10'>
+    <div className='px-5 md:px-14  py-10' id='aboutUs'>
       <h1 className='text-center text-4xl font-bold py-5 text-emerald-500'>Why Choose AvatarX </h1>
       <div className=' grid  grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mt-8 gap-8'>
         <AboutCard
