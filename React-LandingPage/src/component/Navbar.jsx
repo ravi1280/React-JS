@@ -60,10 +60,10 @@ const Navbar = () => {
         </div>
       </div>
       
-      {/* <div
+      <div
         className={`${
           menu ? "translate-x-0" : "translate-x-full"
-        } lg:hidden flex flex-col absolute bg-black text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-400`}
+        } lg:hidden flex flex-col z-20 absolute bg-black text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-400`}
       >
         <a
           href="/Home"
@@ -73,27 +73,27 @@ const Navbar = () => {
           Home
         </a>
         <a
-          href="/Home"
+          href="#aboutUs"
           className="hover:text-orange-400 transition duration-300 ease-linear"
         >
           {" "}
           About Us
         </a>
         <a
-          href="/Home"
+          href="#product"
           className="hover:text-orange-400 transition duration-300 ease-linear"
         >
           {" "}
-          Project
+          Gallery
         </a>
         <a
-          href="/Home"
+          href="#footer"
           className="hover:text-orange-400 transition duration-300 ease-linear"
         >
           {" "}
           Contact Us
         </a>
-      </div> */}
+      </div>
     </>
   );
 };

@@ -1,10 +1,11 @@
 import React from 'react'
 import video from "../assets/video/Hero.mp4"
 import img from "../assets/img/Character.png"
-// import img from "../assets/img/prod5.png"
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from "framer-motion";
 
 const Home = () => {
+  const [move, setMove] = React.useState(false); 
   return (
     <div className=" relative min-h-screen">
       <video
@@ -23,7 +24,7 @@ const Home = () => {
               sequence={[
                 "Discover Rare Digital Art",
                 2000,
-                "Empower Your NFT Journey",
+                "Trade Digital Art",
                 2000,
                 "Own What You Love",
                 2000,
@@ -50,9 +51,18 @@ const Home = () => {
             Explore More !
           </button>
         </div>
-        <div className="hidden  lg:flex w-3/4 rounded-fill   justify-center">
+        <motion.div 
+         animate={{ y: move ? 0 : 50, scale: 1 }}
+         initial={{ scale: 0.5 }}
+         transition={{ type: "tween", duration: 1 }}
+         viewport={{ once: false, amount: 0.2 }}
+         onLoad={() => {
+           setMove(!move);
+         }}
+ 
+        className="hidden  lg:flex w-3/4 rounded-fill   justify-center">
           <img className="h-140 text-center" src={img} alt="img" />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
