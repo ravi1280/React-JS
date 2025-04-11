@@ -10,7 +10,7 @@ const Banner = () => {
         <h1 className=" text-4xl font-bold">
           Step into the Future of Digital Art & Collectibles
         </h1>
-        <p className="text-sm font-light text-emerald-400">
+        <p className="text-sm font-light text-emerald-100">
           Join the next generation of digital collectors and creators! At
           avatarX, we offer a seamless and secure platform to buy, sell, and
           trade exclusive NFTs. Whether you're an artist showcasing your
@@ -23,9 +23,9 @@ const Banner = () => {
         <button className="bg-emerald-500 px-5 py-2  rounded-lg hover:bg-white  hover:text-black transition duration-300 ease-in-out  cursor-pointer">
           Start Exploring Now
         </button>
-        <div className="h-100 hidden lg:block ">
+        <div className=" hidden lg:block ">
           <Spline
-            className="scale-110 "
+            className=" scale-112 "
             scene="https://prod.spline.design/F7qTHJXa9ZqCFGSw/scene.splinecode"
           />
         </div>
