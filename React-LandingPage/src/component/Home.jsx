@@ -64,14 +64,8 @@ const Home = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="hidden  lg:flex w-3/4 rounded-fill   justify-center"
         >
-          <div className="h-140">
-            <Spline
-              className="h-140 scale-120 mt-30"
-              scene="https://prod.spline.design/F7qTHJXa9ZqCFGSw/scene.splinecode"
-            />
-          </div>
-
-          {/* <img className="h-140 text-center" src={img} alt="img" /> */}
+       
+          <img className="h-140 text-center" src={img} alt="img" />
         </motion.div>
       </div>
     </div>
