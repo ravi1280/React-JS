@@ -1,16 +1,16 @@
-import React from 'react'
-import video from "../assets/video/Hero.mp4"
-import img from "../assets/img/Character.png"
-import { TypeAnimation } from 'react-type-animation';
+import React from "react";
+import video from "../assets/video/Hero.mp4";
+import img from "../assets/img/Character.png";
+import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import Spline from '@splinetool/react-spline';
+import Spline from "@splinetool/react-spline";
 
 const Home = () => {
-  const [move, setMove] = React.useState(false); 
+  const [move, setMove] = React.useState(false);
 
   function onSplineMouseDown(e) {
-    if (e.target.name === 'Cube') {
-      console.log('I have been clicked!');
+    if (e.target.name === "Cube") {
+      console.log("I have been clicked!");
     }
   }
   return (
@@ -64,19 +64,18 @@ const Home = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="hidden  lg:flex w-3/4 rounded-fill   justify-center"
         >
-          <div className='h-140'>
-            <Spline className='h-140 scale-120 mt-30'
-              scene="https://prod.spline.design/eokflJ0Fb8Pcspli/scene.splinecode"
-              // onSplineMouseDown={onSplineMouseDown}
+          <div className="h-140">
+            <Spline
+              className="h-140 scale-120 mt-30"
+              scene="https://prod.spline.design/F7qTHJXa9ZqCFGSw/scene.splinecode"
             />
           </div>
-          {/* <Spline scene="https://prod.spline.design/eokflJ0Fb8Pcspli/scene.splinecode" /> */}
 
           {/* <img className="h-140 text-center" src={img} alt="img" /> */}
         </motion.div>
       </div>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;
