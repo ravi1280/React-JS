@@ -6,9 +6,7 @@ A modern, responsive landing page built with [React](https://reactjs.org/) and [
 
 ## 📸 Preview
 
-![Landing Page Preview](screenshots/landing-page-preview.png)
-
-*Note: Replace the above image path with an actual screenshot of your landing page.*
+ <img src="https://github.com/user-attachments/assets/a2012713-fdcf-44b3-a6c0-fe63c1bd4c24" alt="App Demo" width="600" />
 
 ---
 
