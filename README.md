@@ -4,9 +4,10 @@ A modern, responsive landing page built with [React](https://reactjs.org/) and [
 
 ---
 
+
 ## 📸 Preview
 
- <img src="https://github.com/user-attachments/assets/a2012713-fdcf-44b3-a6c0-fe63c1bd4c24" alt="App Demo" width="600" />
+ <img src="https://github.com/user-attachments/assets/7526cb75-5a28-4077-b323-72d32dabb9d6" alt="App Demo" width="600" />
 
 ---
 
