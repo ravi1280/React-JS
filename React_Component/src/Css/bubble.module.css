@@ -7,6 +7,7 @@
   .hoverText:hover {
     font-weight: 900;
     color: rgb(238, 242, 255);
+    cursor: pointer;
   }
   
   /* To the right */

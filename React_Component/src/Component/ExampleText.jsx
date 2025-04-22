@@ -11,7 +11,7 @@ const ExampleText = () => {
 
 const BubbleText = () => {
   return (
-    <h2 className="text-center text-2xl font-thin text-indigo-300">
+    <h2 className="text-center text-5xl font-thin text-indigo-300">
       {"Ravishka Indraji text".split("").map((child, idx) => (
         <span className={styles.hoverText} key={idx}>
           {child}
