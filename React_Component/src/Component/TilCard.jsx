@@ -6,6 +6,7 @@ import {
   useSpring,
 } from "framer-motion";
 import { FiMousePointer } from "react-icons/fi";
+import reactLogo from '../assets/react.svg'
 
 const Card = () => {
   return (
@@ -61,15 +62,18 @@ const TiltCard = () => {
         transformStyle: "preserve-3d",
         transform,
       }}
-      className="relative h-96 w-72 rounded-xl bg-gradient-to-br from-indigo-300 to-violet-300"
+      className="relative h-96 w-72 rounded-xl bg-gradient-to-br from-indigo-300 to-violet-300 m-10"
     >
       <div
         style={{
           transform: "translateZ(75px)",
           transformStyle: "preserve-3d",
         }}
-        className="absolute inset-4 grid place-content-center rounded-xl bg-white shadow-lg"
+        className="absolute inset-4 grid place-content-center rounded-xl bg-orange-200   shadow-lg"
       >
+        <img src={reactLogo} alt="" style={{
+            transform: "translateZ(75px)",
+          }} />
         <FiMousePointer
           style={{
             transform: "translateZ(75px)",
