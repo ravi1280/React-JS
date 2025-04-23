@@ -9,6 +9,7 @@ import Links from "./Component/Link";
 import SnackBar from "./Component/SnackBar";
 import Theme from "./Component/Theme";
 import BottomSheet from "./Component/BottomSheet";
+import Alert from "./Component/AlertModel";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <SnackBar/>
       <Theme/>
       <BottomSheet/>
+      <Alert/>
     </>
   );
 }
