@@ -4,13 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ExampleText from "./Component/ExampleText";
 import Card from "./Component/TilCard";
+import DragCards from "./Component/DragCard";
+
 
 function App() {
 
 
   return (
     <>
+    <ExampleText />
       <Card />
+      <DragCards/>
     </>
   );
 }
