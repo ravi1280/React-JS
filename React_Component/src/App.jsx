@@ -6,6 +6,9 @@ import DragCards from "./Component/DragCard";
 import HScroll from "./Component/HorizontalScroll";
 import DropDown from "./Component/Dropdown";
 import Links from "./Component/Link";
+import SnackBar from "./Component/SnackBar";
+import Theme from "./Component/Theme";
+import BottomSheet from "./Component/BottomSheet";
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
       <HScroll/>
       <DropDown/>
       <Links/>
+      <SnackBar/>
+      <Theme/>
+      <BottomSheet/>
     </>
   );
 }
