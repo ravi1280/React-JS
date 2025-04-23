@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import ExampleText from "./Component/ExampleText";
 import Card from "./Component/TilCard";
 import DragCards from "./Component/DragCard";
+import HScroll from "./Component/HorizontalScroll";
+import DropDown from "./Component/Dropdown";
 
 
 function App() {
@@ -15,6 +15,8 @@ function App() {
     <ExampleText />
       <Card />
       <DragCards/>
+      <HScroll/>
+      <DropDown/>
     </>
   );
 }
