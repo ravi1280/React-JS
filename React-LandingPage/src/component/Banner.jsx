@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="relative  min-h-screen  flex justify-center items-center bg-[url('/src/assets/img/banner3.jpg')] bg-cover bg-center mt-10 p-10">
       <div className="absolute inset-0  bg-black/30 "></div>
-      <motion.div className="relative z-10  w-full md:w-3/5  bg-black/20 text-white p-10 mx-5 space-y-5 rounded-lg ">
+      <div className="relative z-10  w-full md:w-3/5  bg-black/20 text-white p-10 mx-5 space-y-5 rounded-lg ">
         <h1 className=" text-4xl font-bold">
           Step into the Future of Digital Art & Collectibles
         </h1>
@@ -29,7 +29,7 @@ const Banner = () => {
             scene="https://prod.spline.design/F7qTHJXa9ZqCFGSw/scene.splinecode"
           />
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }

@@ -24,7 +24,7 @@ const Home = () => {
       >
         <source src={video} type="video/mp4" />
       </video>
-      <div className=" min-h-screen relative z-10 flex flex-row items-center  justify-between px-5 md:px-14 bg-black/50 text-white">
+      <div className=" min-h-screen relative z-10 flex flex-row items-center  justify-between px-5 md:px-14 bg-[#012A43]/50 text-white">
         <div className="flex flex-col gap-5">
           <h1 className="text-5xl font-bold">
             <TypeAnimation
